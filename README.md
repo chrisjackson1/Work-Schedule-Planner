@@ -12,7 +12,7 @@ Our challenge for this project was to create a simpler calendar application that
     - I had to define hours from 9 AM - 4 AM with div id's.
     - I had to change some div tags to "textarea" tags and "button" tags.
 
-    CSS
+#### CSS
 
     The syntax used in the CSS file was:
     
@@ -20,7 +20,11 @@ Our challenge for this project was to create a simpler calendar application that
 
     Screenshot
 
+    ![Screens](Work Schedule Planner Screenshot.jpeg)
+
+
     Link to Deployed Application
 
     https://chrisjackson1.github.io/Work-Schedule-Planner/
-    
+
+
