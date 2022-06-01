@@ -9,19 +9,19 @@ $("#currentDay").text("Today is " + todaysDate);
 var currenTime= moment().hours()
 console.log(currenTime)
 
-function checkIfPast(){
-for(i = 0; i < times.length; i++){
-    if(currenTime > times[i].innerHTML){
-        console.log(times[i].nextElementSibling)
-        times[i].nextElementSibling.classList.add("present")
-    } 
+// function checkIfPast(){
+// for(i = 0; i < times.length; i++){
+//     if(currenTime > times[i].innerHTML){
+//         console.log(times[i].nextElementSibling)
+//         times[i].nextElementSibling.classList.add("present")
+//     } 
         
-    }
-} 
+//     }
+// } 
 
-function checkIfFuture(){
+// function checkIfFuture(){
   
-}
+// }
 
 function saveTask(e){
     var hour = this.getAttribute("data-hour")
