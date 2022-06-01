@@ -1,5 +1,5 @@
 var times = document.getElementsByClassName('time')
-var buttons = document.getElementsByClassName('buttons')
+var saveBtns = document.querySelectorAll("button")
 var todaysDate = moment().format("MMMM Do, YYYY");
 $("#currentDay").text("Today is " + todaysDate);
 
@@ -24,10 +24,10 @@ function checkIfFuture(){
 }
 
 function saveTask(e){
-    buttons.addEventListener("click", saveTask)
+    console.log(this)
 
 }
 
-
+saveBtns.forEach(btn => btn.addEventListener("click",saveTask))
 
 
