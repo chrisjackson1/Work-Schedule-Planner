@@ -24,8 +24,10 @@ function checkIfFuture(){
 }
 
 function saveTask(e){
-    console.log(this)
-
+    var hour = this.getAttribute("data-hour")
+    var useentry = this.previousElementSibling.value
+    console.log(this,hour,useentry)
+    localStorage.setItem(hour,useentry)
 }
 
 saveBtns.forEach(btn => btn.addEventListener("click",saveTask))
