@@ -18,6 +18,11 @@ Our challenge for this project was to create a simpler calendar application that
     
     - already made for this assignment.
 
+#### Javascript
+    - The javascript took me longer to grasp but nonetheless was able to code out what I did.
+    - Was able to make a loop to be able to loop around to be able to change colors on the planner
+      to illustrate what colors represented the past, present and future.
+
     Screenshot
 
     ![Screens](Work Schedule Planner Screenshot.jpeg)
