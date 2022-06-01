@@ -21,3 +21,6 @@ Our challenge for this project was to create a simpler calendar application that
     Screenshot
 
     Link to Deployed Application
+
+    https://chrisjackson1.github.io/Work-Schedule-Planner/
+    
