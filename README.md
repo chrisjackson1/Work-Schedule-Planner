@@ -25,7 +25,7 @@ Our challenge for this project was to create a simpler calendar application that
 
  ##  Screenshot
 
-    ![screenshot](Screen Shot 2022.jpeg "Screenshot")
+    ![screenshot](images/Screen Shot 2022.jpeg "Screenshot")
 
 
 ##  Link to Deployed Application
